@@ -1,0 +1,71 @@
+body{
+    background-color: teal;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.message-container{
+    margin-top: 90px;  
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.2);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.task-name{
+    background-color: rgba(3,80,63,.5);
+    margin: 0 auto;
+    width: 60%;
+    padding: 0 10px;
+    height: 70px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.add-task{
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: left; 
+    font-size: 25px;
+}
+
+i{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-size: 20px;
+    color: orange;
+}
+
+i:hover{
+    cursor: pointer;
+}
